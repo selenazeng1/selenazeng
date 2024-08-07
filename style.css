@@ -354,7 +354,7 @@ nav ul li a:hover::after {
     minmax: 250px min width and 1fr (fraction of available space) maxwdith)*/
     grid-gap: 40px; /*gap between grid items */
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .work {
@@ -373,7 +373,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(255, 46, 105, 0.676), #ffdbe1); /* gradient starts with pink then transitions to white*/
+    background: linear-gradient(rgba(138, 49, 182, 0.676), #000000); /* gradient starts with pink then transitions to white*/
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -391,12 +391,14 @@ nav ul li a:hover::after {
 
 .layer h3 {
     font-weight: 600;
+    font-size: 30px;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 .layer a {
     margin-top: 20px;
-    color: #FF92A5;
+    color: #000000;
     font-size: 18px;
     line-height: 60px;
     background:white;
@@ -417,7 +419,7 @@ nav ul li a:hover::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #FF92A5;
+    border: 1px solid #ffffff;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -426,7 +428,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: #FF92A5;
+    background: #ffffff;
 }
 
 /* --------------- contact ---------*/
@@ -443,7 +445,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color:#FF92A5;
+    color:#b889e1;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -456,7 +458,7 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color:#FF92A5;
+    color:#b889e1;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -468,7 +470,7 @@ nav ul li a:hover::after {
 
 .btn.btn2 {
     display: inline-block;
-    background:#FF92A5;
+    background:#b889e1;
 }
 
 .contact-right form {
@@ -479,7 +481,7 @@ form input, form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #ffdbe1;
+    background: #4a4a4a;
     padding: 15px;
     margin: 15px 0;
     color:#FF92A5;
