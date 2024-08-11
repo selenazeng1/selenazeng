@@ -350,7 +350,7 @@ nav ul li a:hover::after {
 
 .work-list {
     display: grid; /* sets it to CSS Grid Layout */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* repeats the specified column def, autofit: adjusts # of col to fit container width,
+    grid-template-columns: repeat(2, minmax(250px, 1fr)); /* repeats the specified column def, autofit: adjusts # of col to fit container width,
     minmax: 250px min width and 1fr (fraction of available space) maxwdith)*/
     grid-gap: 40px; /*gap between grid items */
     color: #ffffff;
