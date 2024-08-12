@@ -95,6 +95,7 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .header-col-1, .header-col-2 {
@@ -499,3 +500,115 @@ form .btn2 {
     margin-top: 20px;
     cursor: pointer;
 } */
+
+/* -------- css for small screen --------*/
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        padding: 0;
+    }
+
+
+    #header {
+        background-image: url(phonebackground.png);
+    }
+
+    .header-row {
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+
+    .header-col-1, .header-col-2 {
+        flex: 0 0 100%;
+        text-align:center;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 35%;
+    }
+
+    .header-col-1 h1 {
+        margin-right:0;
+    }
+
+    .header-col-2 p {
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .intro {
+
+        margin-left: 35%; /* Adjust left margin for smaller screens */
+        margin-right: 0px; /* Adjust right margin for smaller screens */
+        margin-top: 50px; /* Ensure there's space above the intro */
+        text-align: center; /* Center the text */
+        line-height: 1.5; /* Adjust line height for readability */
+        font-size: 14px;
+    }
+
+    .connect {
+        margin-left: 35%; /* Adjust left margin for smaller screens */
+        margin-right: 0px; /* Adjust right margin for smaller screens */
+        margin-top: 15px; /* Ensure there's space above the intro */
+        text-align: center; /* Center the text */
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    #about {
+        margin-top: 50px; /* Add space above the about section */
+        padding: 0; /* Add padding for smaller screens */
+    }
+
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%; /* Make the columns full-width on small screens */
+        text-align: center; /* Center-align content */
+        margin-bottom: 20px; /* Add space between the columns */
+    }
+
+    .about-col-1 img {
+        width: 80%; /* Adjust image width for smaller screens */
+        margin: 0 auto; /* Center the image */
+        margin-top: 60%;
+    }
+
+    .about-col-2 {
+        margin-left: 35%;
+        font-size: 14px;
+    }
+
+    .tab-titles {
+        flex-direction: column; /* Stack the tab titles vertically */
+        align-items: center; /* Center-align the tab titles */
+    }
+
+    .tab-links {
+        margin-right: 0; /* Reset the margin */
+        margin-bottom: 10px; /* Add space below each tab link */
+    }
+
+    .tab-contents ul li {
+        font-size: 16px; /* Adjust font size for readability */
+    }
+
+    .contacts p {
+        font-size: 12px;
+    }
+
+    #portfolio {
+        padding: 20px;
+    }
+
+    .sub-title {
+        margin-left: 20%;
+    }
+
+    .contacts {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+}
